@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design>
+    <page>
+        <format>a4</format>
+        <orientation>P</orientation>
+    </page>
+    <anchor id="1">
+        <class>Anchor</class>
+        <x>100</x>
+        <y>115</y>
+        <name>contrato</name>
+    </anchor>
+    <text id="2">
+        <class>Text</class>
+        <x>40</x>
+        <y>150</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>Os Signatários deste instrumento, de um lado, como locador(es) doravante apenas designado(s) LOCADOR(ES),</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <anchor id="3">
+        <class>Anchor</class>
+        <x>40</x>
+        <y>160</y>
+        <name>proprietario_nome</name>
+    </anchor>
+    <text id="4">
+        <class>Text</class>
+        <x>300</x>
+        <y>162</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>CPF/CNPJ.:</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <anchor id="5">
+        <class>Anchor</class>
+        <x>360</x>
+        <y>160</y>
+        <name>proprietario_cpfcnpj</name>
+    </anchor>
+    <text id="6">
+        <class>Text</class>
+        <x>40</x>
+        <y>171</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>estado civil:</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <anchor id="7">
+        <class>Anchor</class>
+        <x>100</x>
+        <y>170</y>
+        <name>proprietario_estadocivil</name>
+    </anchor>
+</design>

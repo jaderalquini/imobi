@@ -1,0 +1,215 @@
+<menu>
+    <menuitem label='Administração'>
+        <icon>fa:university fa-fw</icon>
+        <menu>
+              <menuitem label='Empresas'>
+                  <icon>fa:building fa-fw</icon>
+                  <action>EmpresaList</action>
+              </menuitem>
+              <menuitem label='Programas'>
+                  <icon>fa:file-code-o fa-fw</icon>
+                  <action>SystemProgramList</action>
+              </menuitem>
+              <menuitem label='Grupos'>
+                  <icon>fa:users fa-fw</icon>
+                  <action>SystemGroupList</action>
+              </menuitem>
+              <menuitem label='Usuários'>
+                  <icon>fa:user-circle fa-fw</icon>
+                  <action>SystemUserList</action>
+              </menuitem>
+              <menuitem label="Parâmetros">
+                <icon>fa:cog fa-fw</icon>
+                <action>ParametrosForm#method=onEdit</action>
+              </menuitem>
+              <menuitem label='Importar Dados'>
+                  <icon>fa:cloud-upload fa-fw</icon>
+                  <action>ImportarDados</action>
+              </menuitem>
+              <menuitem label='Painel SQL'>
+                  <icon>fa:table fa-fw</icon>
+                  <action>SystemSQLPanel</action>
+              </menuitem>
+              <menuitem label='PHP Info'>
+                  <icon>fa:code fa-fw</icon>
+                  <action>SystemPHPInfoView</action>
+              </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Logs'>
+        <icon>fa:desktop fa-fw</icon>
+        <menu>
+              <menuitem label='Log de Accessos'>
+                  <icon>fa:key fa-fw</icon>
+                  <action>SystemAccessLogList</action>
+              </menuitem>
+              <menuitem label='Change Log'>
+                  <icon>fa:film fa-fw</icon>
+                  <action>SystemChangeLogView</action>
+              </menuitem>
+              <menuitem label='Log SQL'>
+                  <icon>fa:database fa-fw</icon>
+                  <action>SystemSqlLogList</action>
+              </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Clientes'>
+        <icon>fa:user fa-fw</icon>
+        <menu>            
+            <menuitem label='Cadastro de Clientes'>
+                <icon>fa:user fa-fw</icon>
+                <action>ClienteList</action>
+            </menuitem>                            
+            <menuitem label='Cad. Estados Civis'>
+                <icon></icon>
+                <action>EstadocivilList</action>
+            </menuitem>   
+            <menuitem label='Cad. Tipos de Residência'>
+                <icon></icon>
+                <action>TiporesidenciaList</action>
+            </menuitem>  
+            <menuitem label='Relatório de Aniversariantes'>
+                <icon></icon>
+                <action>AniversarianteReport</action>
+            </menuitem>  
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Locação/Vendas'>
+        <icon>fa:random fa-fw</icon>
+        <menu>
+            <menuitem label='Cadastro de Bens'>
+                <icon>fa:home fa-fw</icon>
+                <action>BemList</action>
+            </menuitem>
+            <menuitem label='Cad. Contas Bancárias'>
+                <icon>fa:credit-card fa-fw</icon>
+                <action>ContacorrenteClienteList</action>
+            </menuitem>
+            <menuitem label='Contratos de Localção'>
+                <icon>fa:file-text-o fa-fw</icon>
+                <action>ContratoList</action>
+            </menuitem>
+            <menuitem label='Manut. de Parc. Aluguel'>
+                <icon>fa:download</icon>
+                <action>ParcelaReceberEditForm</action>
+            </menuitem>
+            <menuitem label='Baixa de Parcelas'>
+                <icon>fa:money</icon>
+                <action>ParcelaReceberPayForm</action>
+            </menuitem>
+            <menuitem label='Reajuste de Parcelas'>
+                <icon></icon>
+                <action>ReajusteParcela</action>
+            </menuitem>
+            <menuitem label='Manut. de Parc. à Pagar'>
+                <icon>fa:upload</icon>
+                <action>ParcelaPagarEditForm</action>
+            </menuitem>
+            <menuitem label='Pagamento de Parcelas'>
+                <icon>fa:money</icon>
+                <action>ParcelaPagarPayForm</action>
+            </menuitem>
+            <menuitem label='Liquidação Antecipada'>
+                <icon></icon>
+                <action>LiquidacaoAntecipadaForm</action>
+            </menuitem>
+            <menuitem label="Gerar Arquivo Dimob">
+                <icon></icon>
+                <action>GeraDimob</action>
+            </menuitem>
+            <menuitem label='Laçamentos no Caixa'>
+                <icon>fa:inbox fa-fw</icon>
+                <action>MovcaixaList</action>
+           </menuitem>
+           <menuitem label='Cad. Localizações'>
+                <icon>fa:map-marker fa-fw</icon>
+                <action>LocalizacaoList</action>
+           </menuitem>
+           <menuitem label='Cad. Municípios'>            
+                <icon>fa:map-pin fa-fw</icon>
+                <action>MunicipioList</action>
+            </menuitem>
+            <menuitem label='Unidades Federativas'>
+                <icon></icon>
+                <action>UFList</action>
+            </menuitem>
+           <menuitem label='Modelos de Contrato'>
+                <icon></icon>
+                <action>ModeloContratoList</action>
+           </menuitem>           
+           <menuitem label='Cad. Tipos de Bens'>
+                <icon></icon>
+                <action>TipobemList</action>
+           </menuitem>
+           <menuitem label='Cad. Tipos de Contrato'>
+                <icon></icon>
+                <action>TipocontratoList</action>
+           </menuitem>
+           <menuitem label='Cad. Tipos de Garantia'>
+                <icon></icon>
+                <action>TipograntiaList</action>
+           </menuitem>
+           <menuitem label='Emissão de Recibos'>
+                <icon></icon>
+                <action>EmissaoRecibos</action>
+           </menuitem>
+           <menuitem label='Relatório de Emissão de Recibos'>
+                <icon></icon>
+                <action>ReciboReport</action>
+           </menuitem>
+           <menuitem label='Prev. Pagtos. Locador'>
+                <icon></icon>
+                <action>PrevisaoPagtoLocadorReport</action>
+           </menuitem>
+           <menuitem label='Rel. Parcelas Vencidas'>
+                <icon></icon>
+                <action>ParcelasVencidasReport</action>
+           </menuitem>
+           <menuitem label='Rel. Parcelas à Pagar'>
+                <icon></icon>
+                <action>ParcelaPagarReport</action>
+           </menuitem>
+           <menuitem label='Rel. Parcelas Pagas'>
+                <icon></icon>
+                <action>ParcelaPagasReport</action>
+           </menuitem>
+           <menuitem label='Rel. Parcelas à Receber'>
+                <icon></icon>
+                <action>ParcelaReceberReport</action>
+           </menuitem>
+           <menuitem label='Rel. Parcelas Recebidas'>
+                <icon></icon>
+                <action>ParcelaRecebidasReport</action>
+           </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Bancos'>
+        <icon>fa:bank fa-fw</icon>
+        <menu>
+            <menuitem label='Cadastro de Bancos'>
+                <icon>fa:bank fa-fw</icon>
+                <action>BancoList</action>
+            </menuitem>
+            <menuitem label='Cad. Contas Correntes'>
+                <icon>fa:credit-card fa-fw</icon>
+                <action>ContacorrenteList</action>
+           </menuitem>
+           <menuitem label='Emissão de Cheques'>
+                <icon>fa:wpforms fa-fw</icon>
+                <action>ChequeList</action>
+           </menuitem>            
+           <menuitem label='Movimento Bancário'>
+                <icon>fa:inbox fa-fw</icon>
+                <action>MovbancariaList</action>
+           </menuitem>
+           <menuitem label='Rel. Mov. Bancário'>
+                <icon>fa:inbox fa-fw</icon>
+                <action>MovbancariaReport</action>
+           </menuitem>
+        </menu>
+    </menuitem>
+</menu>
